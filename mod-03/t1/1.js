@@ -11,3 +11,6 @@ const html = `
 
 // lisätään html-koodi ul-elementin sisään
 ulElem.innerHTML = html;
+
+// asetetaan listalle css-luokkamääritys
+ulElem.classList.add('my-list');
